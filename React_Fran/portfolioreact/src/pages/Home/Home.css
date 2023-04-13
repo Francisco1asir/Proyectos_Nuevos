@@ -1,0 +1,142 @@
+/* section#homepage #ppaltittle{
+    font-size: 8vmin;
+    padding-top: 70px;
+    text-align: center;
+} */
+
+section#homepage, section#proyectos, section#servicios{
+    width: 85%;
+    margin: 0 auto;
+}
+section#homepage p, section#proyectos p, section#servicios p {
+    font-size: 20px;
+}
+section#proyectos a {
+    color: rgb(65, 193, 205) !important;
+    text-decoration: underline !important;
+}
+p::selection{
+    background-color: RGB(97, 218, 251);
+    color: lightgoldenrodyellow  !important;
+}
+.progress-html {
+    height: 35px;
+    width: 100%;
+    border: 1px solid RGB(228, 77, 38);
+    border-radius: 5px;
+    background-color: #e6f3fa;
+    margin-bottom: 10px; 
+    margin-top: 10px; 
+}
+.progress-bar-html {
+    height: 100%;
+    background: RGB(228, 77, 38);
+    display: flex;
+    align-items: center;
+    width: 75%;
+    transition: width 0.25s;
+    /* border-radius: 5px; */
+    border-top-right-radius: 5px;
+}
+.progress-bar-text-html {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #cce7f5; 
+}
+
+.progress-css {
+    height: 35px;
+    width: 100%;
+    border: 1px solid RGB(0, 150, 220);
+    border-radius: 5px;
+    background-color: #e6f3fa;
+    margin-bottom: 10px; 
+    margin-top: 10px; 
+}
+.progress-bar-css {
+    height: 100%;
+    background: RGB(0, 150, 220);
+    display: flex;
+    align-items: center;
+    width: 70%;
+    transition: width 0.25s;
+    /* border-radius: 5px; */
+    border-top-right-radius: 5px;
+}
+.progress-bar-text-css {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #cce7f5; 
+}
+.progress-js {
+    height: 35px;
+    width: 100%;
+    border: 1px solid rgb(175, 159, 18);
+    border-radius: 5px;
+    background-color: #e6f3fa;
+    margin-bottom: 10px; 
+    margin-top: 10px; 
+}
+.progress-bar-js {
+    height: 100%;
+    background: rgb(196, 179, 24);
+    display: flex;
+    align-items: center;
+    width: 13%;
+    transition: width 0.25s;
+    /* border-radius: 5px; */
+    border-top-right-radius: 5px;
+}
+.progress-bar-text-js {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #cce7f5; 
+}
+.progress-react {
+    height: 35px;
+    width: 100%;
+    border: 1px solid rgb(65, 170, 196);
+    border-radius: 5px;
+    background-color: #e6f3fa;
+    margin-bottom: 10px; 
+    margin-top: 10px; 
+}
+.progress-bar-react {
+    height: 100%;
+    background: rgb(64, 171, 198);
+    display: flex;
+    align-items: center;
+    width: 21%;
+    transition: width 0.25s;
+    /* border-radius: 5px; */
+    border-top-right-radius: 5px;
+}
+.progress-bar-text-react {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #cce7f5; 
+}
+.progress-php {
+    height: 35px;
+    width: 100%;
+    border: 1px solid RGB(130, 140, 180);
+    border-radius: 5px;
+    background-color: #e6f3fa;
+    margin-bottom: 10px; 
+    margin-top: 10px; 
+}
+.progress-bar-php {
+    height: 100%;
+    background: RGB(130, 140, 180);
+    display: flex;
+    align-items: center;
+    width: 34%;
+    transition: width 0.25s;
+    /* border-radius: 5px; */
+    border-top-right-radius: 5px;
+}
+.progress-bar-text-php {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #cce7f5; 
+}

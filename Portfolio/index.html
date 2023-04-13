@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="./css/hover.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="shortcut icon" href="./img/icono.jpg" type="image/x-icon">
+
+
+    <title>Mi Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav id="burger">
+            <input type="checkbox" id="menu">
+            <label for="menu"> ☰ </label>
+            <ul>
+                <li><a href="#Inicio">Inicio</a></li>
+                <li>Estudios</li>
+                <li>Sobre mí</li>
+                <li>Proyectos</li>
+                <li>Aficiones</li>
+             
+            </ul>
+        </nav>
+        <nav id="lineal">
+            <a href="#Inicio" class="hvr-buzz">Inicio</a>
+            <a href="#Estudios" class="hvr-buzz">Estudios</a>
+            <a href="#Sobre" class="hvr-buzz">Sobre mí</a>
+            <a href="#Proyectos" class="hvr-buzz">Proyectos</a>
+            <a href="#Aficiones" class="hvr-buzz">Aficiones</a>
+        </nav>
+   
+        <div class="titulo">
+            <h1 class="hvr-rotate">Mi Portfolio</h1>
+            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.twitch.tv/franh90p"><i class="fa-brands fa-twitch"></i></a>
+            <a href="https://www.instagram.com/im_the90p/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/Francisco1asir/Mis-Proyectos"> <i class="fa-brands fa-github"></i></a>
+        </div>
+        <!-- <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#ffffff" fill-opacity="1"
+                d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg> -->
+    </header>
+    <main>
+        <button onclick="lightMode()"><i class="fa-solid fa-sun"></i></button>
+        <button onclick="darkMode()"><i class="fa-solid fa-moon"></i></button>
+
+        <section>
+            <article>
+                <a name="Inicio"></a>
+                <h1>Inicio</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias quisquam, fugit illo quae ab eligendi
+                    quas maxime pariatur saepe distinctio consectetur voluptate rerum unde consequatur id iure deserunt
+                    minus earum.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias quisquam, fugit illo quae ab eligendi
+                    quas maxime pariatur saepe distinctio consectetur voluptate rerum unde consequatur id iure deserunt
+                    minus earum.</p>
+            </article>
+            <article>
+                <a name="Estudios"></a>
+                <h1>Estudios</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias quisquam, fugit illo quae ab eligendi
+                    quas maxime pariatur saepe distinctio consectetur voluptate rerum unde consequatur id iure deserunt
+                    minus earum.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias quisquam, fugit illo quae ab eligendi
+                    quas maxime pariatur saepe distinctio consectetur voluptate rerum unde consequatur id iure deserunt
+                    minus earum.</p>
+            </article>
+            <article>
+                <a name="Sobre"></a>
+                <h1>Sobre mí</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias quisquam, fugit illo quae ab eligendi
+                    quas maxime pariatur saepe distinctio consectetur voluptate rerum unde consequatur id iure deserunt
+                    minus earum.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias quisquam, fugit illo quae ab eligendi
+                    quas maxime pariatur saepe distinctio consectetur voluptate rerum unde consequatur id iure deserunt
+                    minus earum.</p>
+            </article>
+            <article>
+                <a name="Proyectos"></a>
+                <h1>Proyectos</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias quisquam, fugit illo quae ab eligendi
+                    quas maxime pariatur saepe distinctio consectetur voluptate rerum unde consequatur id iure deserunt
+                    minus earum.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias quisquam, fugit illo quae ab eligendi
+                    quas maxime pariatur saepe distinctio consectetur voluptate rerum unde consequatur id iure deserunt
+                    minus earum.</p>
+            </article>
+            <article>
+                <a name="Aficiones"></a>
+                <h1>Aficiones</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias quisquam, fugit illo quae ab eligendi
+                    quas maxime pariatur saepe distinctio consectetur voluptate rerum unde consequatur id iure deserunt
+                    minus earum.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias quisquam, fugit illo quae ab eligendi
+                    quas maxime pariatur saepe distinctio consectetur voluptate rerum unde consequatur id iure deserunt
+                    minus earum.</p>
+            </article>
+
+    </main>
+    <footer></footer>
+
+    <script>
+
+        function darkMode() {
+            var element = document.body;
+            element.className = "claro";
+
+        }
+        function lightMode() {
+            var element = document.body;
+            element.className = "oscuro";
+        }
+
+    </script>
+
+    <!-- <script type="text/javascript">
+        function cambiarModo() {
+        var cuerpoweb = document.body;
+        cuerpoweb.classList.toggle("oscuro");
+        } 
+    </script> -->
+</body>
+
+</html>

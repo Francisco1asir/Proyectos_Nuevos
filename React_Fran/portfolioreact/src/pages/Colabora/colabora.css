@@ -1,0 +1,115 @@
+section#colaborapage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#colabora {
+    background-color: RGB(43, 47, 54);
+    box-shadow: 7px 7px 10px 10px rgba(0, 0, 0, 0.494);
+    /* animation: gradient 6s ease infinite; */
+    width: 40%;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+.MuiAutocomplete-popup {
+    background-color: red;
+    /* Reemplaza con el color que desees */
+}
+
+#colabora h1 {
+    text-align: center;
+    padding: 25px;
+}
+
+.txtinicia {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#colabora div#formfields {
+    /* background-color: lightblue; */
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#recuerdame {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#recuerdame h6 {
+    font-weight: normal;
+}
+
+.margin {
+    margin-bottom: 300px;
+}
+
+.iniciacon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.iniciacon svg {
+    font-size: 35px;
+}
+
+.iniciacon .facebook {
+    background-color: RGB(38, 97, 170);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.iniciacon .twitter {
+    background-color: RGB(47, 195, 240);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.iniciacon .google {
+    background-color: RGB(210, 64, 52);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+@media (max-width:1100px) {
+    #colabora{
+        width: 93%;
+    }
+
+}

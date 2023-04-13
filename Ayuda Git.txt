@@ -1,0 +1,17 @@
+CREAR REPOSITORIO LOCAL
+git init
+
+AÑADIR VARIABLE (EL ORIGIN)
+git add remote origin https://
+
+HACER UN PULL
+git pull origin master
+
+HACER UN PUSH
+git add -A .
+git commit -am "<mensaje>"
+git push origin master
+
+RAMAS
+git checkout -b <rama>
+git branch -D <nombre> (borrar rama)

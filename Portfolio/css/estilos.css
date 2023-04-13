@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* background-color: white; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.552), rgba(0, 0, 0, 0.609)),
+    url("../img/foto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 75vh;
+  /* position: relative; */
+  overflow: hidden;
+}
+header nav#lineal {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  /* position: fixed; */
+  /* backdrop-filter: blur(10px); */
+  height: 50px;
+}
+header nav#lineal a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 0.1em 0.1em 0.05em #333;
+  height: max-content;
+  /* background-color: red; */
+
+}
+
+.titulo {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  /* height: 65vh; */
+  /* background-color: red; */
+  color: white;
+  padding-top: 15vh;
+  font-size: 30px;
+  text-shadow: 0.1em 0.1em 0.05em #333;
+}
+.titulo h1 {
+  /* background-color: red; */
+  text-align: center;
+  width: 98%;
+
+}
+
+.titulo i {
+  margin-right: 20px;
+  color: white;
+}
+
+main section {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+main section article {
+  width: 60%;
+  padding: 20px;
+  /* border: 2px solid black; */
+}
+main button{
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    background-color:rgb(212, 211, 211);
+    box-shadow: 20,10,10,10;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top:10px ;
+    margin-left:10px ;
+    margin-right:10px ;
+    padding: 10px;
+    width: 50px;
+}
+main button:focus, main button:hover{
+    background-color:lightsalmon;
+    transition: .2s ;
+}
+.wave {
+  position: absolute;
+  bottom: 0;
+}
+.claro {
+  background-color: #1f1f1f;
+  color: white;
+  transition: 0.8s;
+}
+.oscuro {
+  background-color: whitesmoke;
+  color: black;
+  transition: 0.8s;
+  
+}
+
+
+
+
+
+ul{
+  display: none;
+}
+
+input:checked  ~ ul{
+  display:block;
+  transition: .5s;
+}
+
+input {
+  display: none;/*quitamos el cuadrado del check*/
+  }
+
+label {
+  box-sizing: border-box;
+  display: inline-block;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+  color: white;
+  font-size: 35px;
+}
+
+
+
+ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+ul{
+  margin-top:0;
+  padding: 0;
+  width: max-content;
+  /* position: absolute; */
+  margin-bottom: 500px; /*Para que "MI PORTFOLIO" se vaya hacia abajo*/
+}
+
+
+li {
+color: white;
+text-shadow: 0.1em 0.1em 0.05em #333;
+padding-left: 50px;
+padding-bottom: 30px;
+
+font-size: 20px;
+}
+nav#burger{
+  display: none;
+}
+@media (max-width:650px) {
+
+  nav#lineal a{
+    display: none;
+  }
+  nav#burger{
+    display: block;
+    padding: 10px;
+
+  }
+  
+}

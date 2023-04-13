@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Roboto:wght@100&family=Ubuntu:wght@500&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* body {
+    background-color: rgba(0, 0, 0, 0.582);
+} */
+
+@media screen and (min-width: 0px) {
+  header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    
+  }
+
+  header a {
+    text-decoration: none;
+    color: white;
+  }
+
+  header nav#sociales {
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  header nav#sociales i {
+    color: black;
+    padding-right: 10px;
+    font-size: 20px;
+    border: 1px black solid;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  header nav#sociales a i {
+    transition: all 0.4s;
+  }
+  header nav#sociales a i:hover {
+    transform: rotate(1turn);
+    background-color: rgb(102, 154, 191);
+  }
+
+  header #contacto {
+    display: none;
+  }
+
+  header figure {
+    width: 20%;
+    /* background-color: red; */
+  }
+
+  header figure img {
+    width: 150px;
+    height: 130px;
+    padding: 10px;
+  }
+
+  header h1 {
+    width: 60%;
+    color: white;
+    padding-left: 15px;
+    /* background-color: green; */
+  }
+
+  header button {
+    width: 10%;
+    font-size: 30px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+  }
+
+  header #ppal {
+    display: flex;
+    flex-flow: column-reverse nowrap;
+    /* border: 1px solid red; */
+    width: 95%;
+    padding-bottom: 10px;
+  }
+  header #ppal a:nth-child(1) {
+    display: none;
+  }
+  header #ppal a {
+    padding: 5px;
+    border: 2px solid white;
+  }
+
+  header #ppal a span {
+    font-size: 20px;
+  }
+
+  header #ppal a i {
+    display: none;
+  }
+  header figure h4 {
+    display: none;
+  }
+
+
+  section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  main section article {
+    width:100%;
+    height: max-content;
+    /* background-color: red; */
+    margin-top: 10px;
+    margin-left: 10px;
+    border: solid black 1px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    margin: 3px;
+    
+  }
+  main section article figure img {
+    width: 120px;
+    height: 120px;
+   
+  }
+  main section article figure {
+    display: flex;
+    /* background-color: red; */
+    width: max-content;
+  }
+  main nav {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    background-color: RGB(255, 165, 0);
+    height:60px;
+  }
+  main nav h1 {
+    color: white;
+  }
+  main nav h1 {
+    width: 100%;
+    /* padding-bottom: 5px; */
+  }
+  main section article h2{
+    color: blue;
+  }
+  main section article p{
+    text-indent: 25px;
+    
+}
+
+
+}
+
+@media screen and (min-width: 650px) {
+  header {
+    background-color: black;
+  }
+
+  header #contacto {
+    display: block;
+    width: 100%;
+    background-color: white;
+    height: 30px;
+    color: black;
+    padding: 10px;
+
+  }
+
+  header #contacto a {
+    color: black;
+    margin-right: 10px;
+  }
+
+  header nav#sociales {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  header #ppal a:nth-child(1) {
+    display: block;
+  }
+  button {
+    display: none;
+  }
+
+  header figure {
+    width: 35%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-end;
+  }
+  header h1 {
+    width: 65%;
+    color: white;
+    padding-left: 15px;
+    /* background-color: green; */
+  }
+  header nav#ppal {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+  }
+  header #ppal a {
+    padding: 5px;
+    border: none;
+  }
+  header #ppal a i {
+    display: block;
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    color: green;
+  }
+  header figure h4 {
+    display: none;
+  }
+  header nav#sociales i {
+    border: none;
+  }
+  section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  main section article {
+    width:370px;
+    height: max-content;
+    /* background-color: red; */
+    margin-top: 10px;
+    margin-left: 10px;
+    border: solid black 1px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  main section article figure img {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+  }
+  main section article figure {
+    width: 100%;
+    justify-content: center;
+  }
+  main nav {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    background-color: RGB(255, 165, 0);
+    height: 50px;
+  }
+  main nav h1 {
+    color: white;
+  }
+  main nav h1 {
+    width: 70%;
+  }
+  main section article h2{
+    color: blue;
+  }
+  main section article p{
+    text-indent: 25px;
+    font-family: estonia;
+    font-size: 25px;
+}
+header nav#ppal a i{
+transition: .5s;
+}
+header nav#ppal a:hover i {
+  color: yellow;
+  transform: rotate(1turn);
+}
+header nav#ppal a:hover span {
+  color: green;
+  background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(236,255,0,1) 50%, rgba(255,0,0,1) 100%);
+  -webkit-background-clip: text;
+  color: transparent;  
+  transition: all .5s;
+ 
+}
+}
+
+@media screen and (min-width: 900px) {
+  header {
+    background-color: black;
+  }
+  header #contacto {
+    width: 50%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+  }
+
+  header nav#sociales {
+    width: 50%;
+  }
+  header nav#ppal {
+    width: 80%;
+  }
+
+  header figure {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+  }
+  header h1 {
+    display: none;
+  }
+  header figure h4 {
+    display: block;
+    color: white;
+    font-size: 20px;
+  }
+ }

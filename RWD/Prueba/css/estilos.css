@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+}
+body{
+    background-color: grey;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+@media (min-width: 0px) {
+    header{
+        background-color: red;
+    }
+    main{
+        background-color: green;
+    }
+    main article{
+        background-color: antiquewhite;
+        color:white;
+    }
+    
+}
+@media (min-width: 600px) {
+    header{
+        background-color: red;
+    }
+    main{
+        background-color: green;
+    }
+    main article{
+        background-color: blue;
+    }
+    
+}
+@media (min-width: 900px) {
+    header{
+        background-color: yellow;
+        height: 200px;
+    }
+    main{
+        background-color: green;
+    }
+    main article{
+        background-color: black;
+        color:blue;
+        border-radius:20px  ;
+    }
+    
+}

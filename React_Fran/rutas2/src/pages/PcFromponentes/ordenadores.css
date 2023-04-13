@@ -1,0 +1,12 @@
+.card-container{
+    display: flex;
+    gap: 20px;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.card{
+    /* background-color: red; */
+    /* width: 33% !important; */
+}

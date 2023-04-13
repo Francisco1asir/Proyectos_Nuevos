@@ -1,0 +1,25 @@
+header{
+    background-color: darkblue;
+    height: 300px;
+}
+main{
+    background-color: silver;
+    height: 600px;
+}
+main article{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 100px;
+}
+main article figure {
+    background-color: yellow;
+}
+main article figure image{
+    height: 100%;
+}
+footer{
+    background-color: darkmagenta;
+    height: 300px;
+
+}

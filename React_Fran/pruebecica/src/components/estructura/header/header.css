@@ -1,0 +1,7 @@
+header{
+    height: 20vh;
+    background: aqua;
+}
+header h1{
+    text-align: center;
+}

@@ -1,0 +1,128 @@
+header {
+    background-color: black;
+  }
+
+  header #contacto {
+    display: block;
+    width: 100%;
+    background-color: white;
+    height: 30px;
+    color: black;
+    padding: 10px;
+
+  }
+
+  header #contacto a {
+    color: black;
+    margin-right: 10px;
+  }
+
+  header nav#sociales {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  header #ppal a:nth-child(1) {
+    display: block;
+  }
+  button {
+    display: none;
+  }
+
+  header figure {
+    width: 35%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-end;
+  }
+  header h1 {
+    width: 65%;
+    color: white;
+    padding-left: 15px;
+    /* background-color: green; */
+  }
+  header nav#ppal {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+  }
+  header #ppal a {
+    padding: 5px;
+    border: none;
+  }
+  header #ppal a i {
+    display: block;
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    color: green;
+  }
+  header figure h4 {
+    display: none;
+  }
+  header nav#sociales i {
+    border: none;
+  }
+  section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  main section article {
+    width:370px;
+    height: max-content;
+    /* background-color: red; */
+    margin-top: 10px;
+    margin-left: 10px;
+    border: solid black 1px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  main section article figure img {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+  }
+  main section article figure {
+    width: 100%;
+    justify-content: center;
+  }
+  main nav {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    background-color: RGB(255, 165, 0);
+    height: 50px;
+  }
+  main nav h1 {
+    color: white;
+  }
+  main nav h1 {
+    width: 70%;
+  }
+  main section article h2{
+    color: blue;
+  }
+  main section article p{
+    text-indent: 25px;
+    font-family: estonia;
+    font-size: 25px;
+}
+header nav#ppal a i{
+transition: .5s;
+}
+header nav#ppal a:hover i {
+  color: yellow;
+  transform: rotate(1turn);
+}
+header nav#ppal a:hover span {
+  color: green;
+  background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(236,255,0,1) 50%, rgba(255,0,0,1) 100%);
+  -webkit-background-clip: text;
+  color: transparent;  
+  transition: all .5s;
+ 
+}

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@700&family=Source+Sans+Pro:wght@200&display=swap');
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 'poopins','sans serif';
+  text-decoration: none !important;
+  color: white !important;
+  /* scroll-behavior: smooth; */
+
+}
+#tittle{
+  font-size: 10vmin;
+  text-align: center;
+  margin-top: 60px;
+}

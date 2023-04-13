@@ -1,0 +1,21 @@
+header{
+    background-color: lightcoral;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+img{
+    height: 80px;
+    animation: spin 2s linear infinite;
+    transition: .5s;
+}
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(1turn);
+    }
+}

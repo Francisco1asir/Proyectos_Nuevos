@@ -1,0 +1,151 @@
+header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    
+  }
+
+  header a {
+    text-decoration: none;
+    color: white;
+  }
+
+  header nav#sociales {
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  header nav#sociales i {
+    color: black;
+    padding-right: 10px;
+    font-size: 20px;
+    border: 1px black solid;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  header nav#sociales a i {
+    transition: all 0.4s;
+  }
+  header nav#sociales a i:hover {
+    transform: rotate(1turn);
+    background-color: rgb(102, 154, 191);
+  }
+
+  header #contacto {
+    display: none;
+  }
+
+  header figure {
+    width: 20%;
+    /* background-color: red; */
+  }
+
+  header figure img {
+    width: 150px;
+    height: 130px;
+    padding: 10px;
+  }
+
+  header h1 {
+    width: 60%;
+    color: white;
+    padding-left: 15px;
+    /* background-color: green; */
+  }
+
+  header button {
+    width: 10%;
+    font-size: 30px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+  }
+
+  header #ppal {
+    display: flex;
+    flex-flow: column-reverse nowrap;
+    /* border: 1px solid red; */
+    width: 95%;
+    padding-bottom: 10px;
+  }
+  header #ppal a:nth-child(1) {
+    display: none;
+  }
+  header #ppal a {
+    padding: 5px;
+    border: 2px solid white;
+  }
+
+  header #ppal a span {
+    font-size: 20px;
+  }
+
+  header #ppal a i {
+    display: none;
+  }
+  header figure h4 {
+    display: none;
+  }
+
+
+  section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  main section article {
+    width:100%;
+    height: max-content;
+    /* background-color: red; */
+    margin-top: 10px;
+    margin-left: 10px;
+    border: solid black 1px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    margin: 3px;
+    
+  }
+  main section article figure img {
+    width: 120px;
+    height: 120px;
+   
+  }
+  main section article figure {
+    display: flex;
+    /* background-color: red; */
+    width: max-content;
+  }
+  main nav {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    background-color: RGB(255, 165, 0);
+    height:60px;
+  }
+  main nav h1 {
+    color: white;
+  }
+  main nav h1 {
+    width: 100%;
+    /* padding-bottom: 5px; */
+  }
+  main section article h2{
+    color: blue;
+  }
+  main section article p{
+    text-indent: 25px;
+    
+}

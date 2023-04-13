@@ -1,0 +1,70 @@
+thead {
+  background-color: aqua;
+}
+video{
+  /* display: none; */
+}
+td,
+th {
+  border: 1px solid black;
+  width: 200px;
+  text-align: center;
+  padding: 3px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+tr {
+  transition: .3s;
+  border: 1px solid black;
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgb(203, 254, 255);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: rgb(148, 255, 255);
+}
+
+.titulo {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+  transition: .4s;
+  animation: flip 4s infinite linear;
+}
+
+@keyframes flip {
+  0% {
+    transform: rotateY(0deg);
+    color: yellow;
+  }
+
+  50% {
+    color: red;
+  }
+
+  100% {
+    transform: rotateY(1turn);
+    color: yellow;
+  }
+}
+
+table {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: max-content;
+  box-shadow: 0px 4px 20px 4px rgb(47, 47, 47);
+
+}
+
+.cnt:hover  {
+  background-color: rgb(91, 224, 180);
+  transform: scale(1.09);
+}

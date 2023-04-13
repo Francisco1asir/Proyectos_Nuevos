@@ -1,0 +1,112 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 10px; */
+    /* background: red; */
+    height: max-content;
+    width: 100%;
+    flex-flow: row nowrap;
+}
+/* ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  } */
+  
+sub{
+    font-size: small;
+}
+.links{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: blue; */
+    gap: 30px;
+}
+.links a, .links svg {
+    /* gap: 30px; */
+margin-right: 20px;}
+
+nav img {
+    height: 80px;
+    animation: spin 3s linear infinite;
+}
+nav img:hover{
+    animation: spin .5s linear infinite;
+
+}
+
+figure {
+    /* background-color: yellow; */
+    height: max-content;
+    /* width: 30%; */
+}
+#wave{
+    display: none;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(1turn);
+    }
+
+}
+.tittle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    width: max-content;
+    margin: 0 auto;
+    height: 50%;
+    font-size: 25px;
+    transition: .3s;
+    cursor:pointer;
+}
+.tittle:hover{
+    transform: rotate(5deg);
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    text-shadow: 10px 10px 10px 10px;
+    height: max-content;
+}
+
+nav a::after {
+    content: "";
+    height: 3px;
+    background-color: darkblue;
+    display: block;
+    border-radius: 10px;
+    width: 0;
+    transition: .3s;
+}
+nav a:hover::after{
+    width: 100%;
+}
+.links svg{
+    display: none;
+}
+.active {
+    text-decoration: underline;
+    transition: .5s;
+}
+@media (max-width:1000px) {
+    body{
+        background-color: red;
+    }
+    .links svg{
+        display: flex;
+        font-size: 25px;
+    }
+    .links a{
+        display: none;
+    }
+    
+}

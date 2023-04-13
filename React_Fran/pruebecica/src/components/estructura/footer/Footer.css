@@ -1,0 +1,13 @@
+footer{
+    background-color: lightgreen;
+    height: 20vh;
+}
+footer h3{
+    text-align: center;
+} 
+.cnt-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
