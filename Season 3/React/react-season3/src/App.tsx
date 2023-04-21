@@ -5,6 +5,7 @@ import { NavBar } from './common/NavBar';
 import { Route, Routes } from 'react-router-dom';
 import { Main } from './components/Main';
 import { routes } from './common/routes';
+
 function App() {
   return (
     <>
@@ -14,13 +15,13 @@ function App() {
       <Routes>
         <Route path='/' element={<Main />}></Route>
         {
-          routes.map((route) => (
+          routes.map(({path, component:Component}) => (
             <Route
-              key={route.path}
-              path={route.path}
-              element={<route.component/>}
+              key={path}
+              path={path}
+              element={<Component/>}
             >
-              {route.name}
+              {/* {route.name} */}
             </Route>
           ))
         }
@@ -29,5 +30,15 @@ function App() {
     </>
   );
 }
-
+// {
+//   routes.map((route) => (
+//     <Route
+//       key={route.path}
+//       path={route.path}
+//       element={<route.component/>}
+//     >
+//       {route.name}
+//     </Route>
+//   ))
+// }
 export default App;

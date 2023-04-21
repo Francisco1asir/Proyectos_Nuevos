@@ -21,3 +21,12 @@ export const NavBar = () => {
     </>
   )
 }
+// {
+//   routes.map(({ path, name }) => (
+//     <NavLink
+//       className="opcion"
+//       to={path}>
+//       {name}
+//     </NavLink>
+//   ))
+// }

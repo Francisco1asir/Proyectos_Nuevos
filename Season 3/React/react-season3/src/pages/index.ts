@@ -1,3 +1,4 @@
+export { Firebase } from "./Firebase";
 export { ContactoPage } from "./ContactoPage";
 export { FormacionPage } from "./FormacionPage";
 export { HomePage } from "./HomePage";

@@ -1,4 +1,4 @@
-import { ContactoPage, HomePage, FormacionPage, ProyectosPage, ServiciosPage, SesionPage, Productos } from "../pages/index";
+import { Firebase, ContactoPage, HomePage, FormacionPage, ProyectosPage, ServiciosPage, SesionPage, Productos } from "../pages/index";
 
 type JSXComponent = () => JSX.Element;
 
@@ -44,5 +44,10 @@ export const routes: Route[] = [
         path: 'productos',
         component: Productos,
         name: 'Productos'
+    },
+    {
+        path: 'firebase',
+        component: Firebase,
+        name: 'Firebase'
     }
 ];
