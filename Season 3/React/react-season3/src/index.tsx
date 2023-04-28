@@ -4,7 +4,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import { FirebaseAppProvider } from 'reactfire';
-import { firebaseConfig } from './firebaseConfig';
+import { firebaseConfig } from './firebase/config/firebaseConfig';
+import { Suspense } from 'react';
 
 
 const root = ReactDOM.createRoot(

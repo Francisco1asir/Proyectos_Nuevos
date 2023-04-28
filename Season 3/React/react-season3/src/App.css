@@ -9,6 +9,8 @@
   font-size: 45px;
 }
 body{
-  background-color:lightgrey;
+  background-color:#646464;
 }
-
+a{
+  color: white;
+}
