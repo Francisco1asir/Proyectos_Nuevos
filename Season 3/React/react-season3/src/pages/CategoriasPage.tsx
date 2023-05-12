@@ -31,7 +31,7 @@ export const CategoriasPage = () => {
   //   newCategoria(dataCategoria)
   // }
 
-  const onAddCategoria = async ( dataCategoria: ICategoria) => {
+  const onAddCategoria = async (dataCategoria: ICategoria) => {
     // console.log('Enviando...')
     console.log(dataCategoria)
     await newCategoria(dataCategoria)
@@ -41,16 +41,18 @@ export const CategoriasPage = () => {
   return (
     <>
       <Grid container sx={{ display: 'flex', justifyContent: 'space-around' }}>
-        <Grid item xs={5} sx={{ backgroundColor: 'lightgray', margin: '10px', padding: '12px',  height: 'max-content', borderRadius: '20px' }}>
+        <Grid item xs={5} sx={{ backgroundColor: 'lightgray', margin: '10px', padding: '12px', height: 'max-content', borderRadius: '20px' }}>
           <h2 id='NewCat'>Listado de Categorias</h2>
           {
-            categorias.map((categoria) => (
+            categorias.slice(0, 100).map((categoria) => (
               <>
-                <li key={categoria.name}>{categoria.name}</li>
+              <li key={categoria.name}>{categoria.name}</li>
+              <img src={categoria.logo} alt="" />
               </>
             ))
           }
         </Grid>
+
         <Grid item xs={5} sx={{ backgroundColor: 'lightgray', margin: '10px', padding: '12px', height: 'max-content', borderRadius: '20px' }}>
           <h2 id='NewCat'>Añadir nueva Categoría</h2>
           <form onSubmit={handleSubmit(onAddCategoria)} noValidate >
